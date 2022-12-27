@@ -26,6 +26,18 @@ body{
     padding: 0 1em;
 }
 
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+@media(max-width:767px) {
+    .ul-bg{
+        margin-top: 10px;
+        border: 2px solid #F56EB3;
+        border-radius: 10px;
+    }
+}
+
 .navbar-nav{
     align-items: center;
 }
