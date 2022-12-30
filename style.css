@@ -133,3 +133,50 @@ div > img{
         grid-row: span 2;
     }
 }
+
+/* index content */
+#content{
+    padding-top: 20px;
+}
+
+.container_index > p{
+    font-size: 32px;
+    padding-top: 30px;
+}
+
+/* know me content */
+#formal{
+    padding: 20px 0px;
+}
+
+#knowme{
+    font-size: 22px;
+}
+
+/* duties content */
+
+/* responsive flex need */
+.duties-cnt{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin: 10px;
+}
+
+.duties-img{
+    align-self: flex-start;
+    width: 50%;
+}
+
+.duties-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+#duties-content{
+    padding-left: 20px;
+    width: 50%;
+    font-size: 24px;
+}
+
+/* need more content */
