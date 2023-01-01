@@ -5,6 +5,12 @@
 
 body{
     background-color: #F56EB3;
+    text-align: justify;
+}
+
+#front-txt{
+    font-size: 50px;
+    text-align: center;
 }
 
 .logo{
@@ -150,12 +156,11 @@ div > img{
 }
 
 #knowme{
-    font-size: 22px;
+    text-align: justify;
+    font-size: 30px;
 }
 
 /* duties content */
-
-/* responsive flex need */
 .duties-cnt{
     display: flex;
     align-items: center;
@@ -176,7 +181,5 @@ div > img{
 #duties-content{
     padding-left: 20px;
     width: 50%;
-    font-size: 24px;
+    font-size: 28px;
 }
-
-/* need more content */
