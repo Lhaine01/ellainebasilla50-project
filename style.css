@@ -8,6 +8,11 @@ body{
     text-align: justify;
 }
 
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+
 #front-txt{
     font-size: 50px;
     text-align: center;
