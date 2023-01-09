@@ -174,8 +174,7 @@ div > img{
 }
 
 .duties-img{
-    align-self: flex-start;
-    width: 50%;
+    width: 100%;
 }
 
 .duties-img > img{
@@ -187,4 +186,16 @@ div > img{
     padding-left: 20px;
     width: 50%;
     font-size: 28px;
+}
+
+#duties-content > p{
+    padding: 10px;
+}
+
+@media screen and (max-width:992px) {
+    .duties-cnt{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
 }
