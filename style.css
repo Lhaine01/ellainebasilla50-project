@@ -162,7 +162,7 @@ div > img{
 
 #knowme{
     text-align: justify;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 /* duties content */
@@ -197,5 +197,143 @@ div > img{
         display: flex;
         flex-direction: column;
         margin: 10px;
+    }
+    #duties-content{
+        padding: 20px;
+        width: 100%;
+        font-size: 28px;
+    }
+}
+
+/* skills */
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+
+.skills div{
+    border: 3px solid #460C68;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 33.33%;
+    font-size: 30px;
+    background-color: #f56eb4;
+    color: #460C68;
+}
+
+@media screen and (max-width:376px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills div{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* contacts */
+.contact{
+    display: flex;
+    margin: 5px;
+    background-color: #460c6838;
+    border-radius: 10px;
+    border: 2px solid #460C68;
+}
+
+.left-side{
+    width: 50%;
+}
+
+.left-side div{
+    padding-top: 30px;
+    color: #460C68;
+}
+
+.left-side ul{
+    padding-top: 30px;
+    font-size: 25px;
+    color: #460C68;
+}
+
+.left-side div a{
+    padding-top: 30px;
+    color: #460C68;
+    text-decoration: none;
+}
+
+.left-side div a:hover{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+}
+
+.right-side{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: inherit;
+    grid-gap: 0;
+    width: 50%;
+}
+
+.right-side img{
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+@media screen and (max-width:768px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .left-side{
+        width: 100%;
+    }
+
+    .right-side{
+        grid: none;
+        grid-gap: 0;
+        width: 100%;
     }
 }
